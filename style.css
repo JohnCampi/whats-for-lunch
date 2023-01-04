@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:cursive;
+}
+
+#main{
+    margin-top: 3em;
+    height:500px;
+    width: 80%;
+}
+
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    margin-bottom: .5em;
+}
+button{
+    margin-top: 1em;
+    height: 2em;
+}
+
+ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
