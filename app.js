@@ -64,7 +64,6 @@ const highTier = {
   },
   tds: {
     name: "Teds Diner",
-    url: "https://www.tdsnorth.com",
   },
 };
 
