@@ -184,6 +184,7 @@ const allTiers = {
 
 const urlLinks = (name, url) => {
   const link = document.createElement("a");
+  link.setAttribute("target", "_blank");
   const li = document.createElement("li");
   link.innerText = name;
   link.href = url;
