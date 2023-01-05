@@ -183,7 +183,6 @@ const high = (value) => {
   }
 };
 
-let entries;
 const array = [];
 let ranNum = Math.floor(Math.random() * 13) + 1;
 
