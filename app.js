@@ -148,6 +148,38 @@ const allTiers = {
     name: "Teds Diner",
     url: "https://www.tdsnorth.com",
   },
+  wiener: {
+    name: "Wienerschnitzel",
+    url: "https://www.wienerschnitzel.com/",
+  },
+  wendy: {
+    name: "Wendy's",
+    url: "https://www.wendys.com/",
+  },
+  chipotle: {
+    name: "Chipotle",
+    url: "https://www.chipotle.com/",
+  },
+  bobsBurgers: {
+    name: "Bob's Burgers",
+    url: "https://www.bobsburgersnewmexico.com/",
+  },
+  goodFellas: {
+    name: "Goodfellas",
+    url: "https://www.goodfellaspizzaalbuquerque.com/",
+  },
+  laPlaya: {
+    name: "Mariscos La Playa",
+    url: "https://www.facebook.com/Mariscoslaplayaabq/",
+  },
+  Delicias: {
+    name: "Delicias Cafe",
+    url: "http://orderdeliciascafe.com/",
+  },
+  jerseyMike: {
+    name: "Jersey Mike's",
+    url: "https://www.jerseymikes.com/",
+  },
 };
 
 const urlLinks = (name, url) => {
@@ -183,8 +215,9 @@ const high = (value) => {
   }
 };
 
+const total = Object.keys(allTiers).length;
 const array = [];
-let ranNum = Math.floor(Math.random() * 13) + 1;
+let ranNum = Math.floor(Math.random() * total) + 1;
 
 const rand = (value) => {
   if (parseInt(select.value) === value) {
