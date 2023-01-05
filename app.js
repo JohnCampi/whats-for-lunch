@@ -223,7 +223,7 @@ const rand = (value) => {
   if (parseInt(select.value) === value) {
     for (let all in allTiers) {
       array.push(allTiers[all]);
-      ranNum = Math.floor(Math.random() * 13) + 1;
+      ranNum = Math.floor(Math.random() * total) + 1;
     }
     urlLinks(array[ranNum].name, array[ranNum].url);
   }
